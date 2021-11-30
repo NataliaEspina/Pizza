@@ -1,0 +1,239 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* MENÚ */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 300px;
+    background-color: black;
+}
+.menu__lista{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+li{
+    list-style: none;
+    }
+li a{
+    text-decoration: none;
+    font-family: 'Montserrat Regular', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* MAIN index */
+.principal{
+    background-image: url(../resources/foto_principal_00.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.principal__titulo{
+    font-family: 'Montserrat ExtraBold', sans-serif;
+    font-size: 230px;
+    text-transform: uppercase;
+    color: #F10303;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 0px;
+}
+.principal__subtitulo{
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin: -20px 450px;
+    background-color: #149B49;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+/* MAIN Historia */
+.historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 50px 500px;
+}
+.historia__h1{
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 65px;
+    color: #F10303;
+}
+.historia__h2{
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.historia__h3{
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 25px;
+    color: #F10303;
+}
+.historia__texto{
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 20px;
+    color: white;   
+}
+
+/* MAIN Recetas */
+.recetas{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.recetas__fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 60%;
+}
+.recetas__imagen{
+    width: 700px;
+    height: 350px;
+}
+.recetas__textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #149B49;
+    padding: 0px 50px;
+    height: 350px;
+}
+.recetas__h2{
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.recetas__parrafo{
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+/* MAIN Por el Mundo */
+.mundo{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mundo__cuadro{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 45px;
+}
+.mundo__pais{
+    padding: 40px;
+    margin-top: 25px;
+    width: 400px;
+}
+.mundo__bandera{
+    width: 68px;
+    height: 44px;
+}
+.mundo__h2{
+    font-family: 'Montserrat ExtraBold', sans-serif;
+    font-size: 55px;
+    color: #149B49;
+    margin: 5px 0px;
+}
+.mundo__h3{
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 44px;
+    color: #F10303;
+    margin: 5px 0px;
+}
+.mundo__texto{
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 22px;
+    margin: 15px 0px;
+    line-height: 1.5;
+}
+
+/* MAIN Formulario */
+.formulario{
+    background-image: url(../resources/foto_principal_00.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario__cuadro{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #149B49;
+    margin-top: 100px;
+    padding: 100px 130px;
+    }
+.formulario__rectangulo{
+    width: 500px;
+    height: 45px;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 15px;
+    color: #F10303;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.formulario__mensaje{
+    width: 500px;
+    height: 300px;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 15px;
+    color: #F10303;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+#boton{
+    width: 200px;
+    height: 45px;
+    background-color: #F10303;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 10px;   
+}
+
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 700px;
+    background-color: #F10303;
+}
+.footer__texto{
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.footer__redes{
+    width: 25px;
+    height: 25px;
+}
