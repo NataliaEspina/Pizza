@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="menu">
+            <ul class="menu__lista">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../pages/historia.html">Historia</a></li>
                 <li><a href="../pages/recetas.html">Recetas</a></li>
@@ -19,35 +20,37 @@
         </nav>
     </header>
     <main>
-        <section>
-            <!-- país 1 -->
-            <div>
-                <img src="../resources/flag_China.png" alt="">
-                <h2>China</h2>
-                <h3>Las primeras pizzerías se abrieron en los años 90</h3>
-                <p>Hasta entonces, el queso y el tomate eran casi desconocidos. Por lo tanto, en lugar de la salsa de tomate, se utiliza a menudo una salsa asiática. Desde el año 2000, la pizza se ha vuelto cada vez más popular. Una rareza de la pizza china es la ‘’pizza con salsa de chili de cerdo’.</p>
-            </div>
-            <!-- país 2 -->
-            <div>
-                <img src="../resources/flag_Noruega.png" alt="">
-                <h2>Noruega</h2>
-                <h3>Es el país donde se consume el mayor porcentaje de pizzas por persona</h3>
-                <p>La pizza es el plato nacional no oficial. Los noruegos consumen la pizza tradicional “lørdagspizza”, que significa pizza de domingo. Se cubre con salsa de tomate, carne picada y mucho queso y se hornea en la sartén.</p>
-            </div>
-            <!-- país 3 -->
-            <div>
-                <img src="../resources/flag_Rusia.png" alt="">
-                <h2>Rusia</h2>
-                <h3>Alrededor del año 2000, las primeras pizzerías italianas se abrieron</h3>
-                <p>Se han utilizado ingredientes exóticos y caros como la trufa, el caviar, la carne seca y el queso añejo. Un ejemplo es la pizza de salmón y caviar: Crema acida, salmón ahumado, caviar negro, caviar dorado, eneldo fresco picado, cebolla, aceite de oliva.</p>
+        <section class="mundo">
+            <div class="mundo__cuadro">
+                <!-- país 1 -->
+                <div class="mundo__pais">
+                    <img class="mundo__bandera" src="../resources/flag_China.png" alt="">
+                    <h2 class="mundo__h2">China</h2>
+                    <h3 class="mundo__h3">Las primeras pizzerías se abrieron en los años 90</h3>
+                    <p class="mundo__texto">Hasta entonces, el queso y el tomate eran casi desconocidos. Por lo tanto, en lugar de la salsa de tomate, se utiliza a menudo una salsa asiática. Desde el año 2000, la pizza se ha vuelto cada vez más popular. Una rareza de la pizza china es la ‘’pizza con salsa de chili de cerdo’.</p>
+                </div>
+                <!-- país 2 -->
+                <div class="mundo__pais">
+                    <img class="mundo__bandera" src="../resources/flag_Noruega.png" alt="">
+                    <h2 class="mundo__h2">Noruega</h2>
+                    <h3 class="mundo__h3">Es el país donde se consume el mayor porcentaje de pizzas por persona</h3>
+                    <p class="mundo__texto">La pizza es el plato nacional no oficial. Los noruegos consumen la pizza tradicional “lørdagspizza”, que significa pizza de domingo. Se cubre con salsa de tomate, carne picada y mucho queso y se hornea en la sartén.</p>
+                </div>
+                <!-- país 3 -->
+                <div class="mundo__pais">
+                    <img class="mundo__bandera" src="../resources/flag_Rusia.png" alt="">
+                    <h2 class="mundo__h2">Rusia</h2>
+                    <h3 class="mundo__h3">Alrededor del año 2000, las primeras pizzerías italianas se abrieron</h3>
+                    <p class="mundo__texto">Se han utilizado ingredientes exóticos y caros como la trufa, el caviar, la carne seca y el queso añejo. Un ejemplo es la pizza de salmón y caviar: Crema acida, salmón ahumado, caviar negro, caviar dorado, eneldo fresco picado, cebolla, aceite de oliva.</p>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-        <p>Seguinos en nuestras redes sociales</p>
-        <a href=""><img src="../resources/youtube.png" alt=""></a>
-        <a href=""><img src="../resources/instagram.png" alt=""></a>
-        <a href=""><img src="../resources/facebook.png" alt=""></a>
+    <footer class="footer">
+        <p class="footer__texto">Seguinos en nuestras redes sociales</p>
+        <a href="https://www.youtube.com/"><img class="footer__redes" src="../resources/youtube.png" alt=""></a>
+        <a href="https://www.instagram.com/"><img class="footer__redes" src="../resources/instagram.png" alt=""></a>
+        <a href="https://es-la.facebook.com/"><img class="footer__redes" src="../resources/facebook.png" alt=""></a>
     </footer>  
 </body>
 </html>
