@@ -152,8 +152,65 @@ li a{
     color: white;       
 }
 
-/* MAIN Recetas */
-.recetas{
+/* GRID Section Recetas */
+.main{
+    background-color: black;
+}
+#grid_recetas{
+display: grid;
+    grid-template-areas:
+    "receta1 receta2"
+    "receta3 receta4";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#receta1{
+    grid-area: receta1;
+    padding: 30px 50px;
+}
+#receta2{
+    grid-area: receta2;
+    padding: 30px 50px;
+}
+#receta3{
+    grid-area: receta3;
+    padding: 30px 50px;
+}
+#receta4{
+    grid-area: receta4;
+    padding: 30px 50px;
+}
+.cuadro_receta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.imagen_receta{
+    width: 300px;
+    height: 300px;
+}
+#grid_recetas h2{
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0px;
+}
+#grid_recetas p{
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.receta_textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    background-color: #149B49;
+    height: 300px;
+}
+
+/* .recetas{
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -193,7 +250,7 @@ li a{
     font-size: 25px;
     text-align: center;
     color: white;
-}
+} */
 
 /* MAIN Por el Mundo */
 .mundo{
