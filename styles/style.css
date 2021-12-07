@@ -210,48 +210,6 @@ display: grid;
     height: 300px;
 }
 
-/* .recetas{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0px;
-}
-.recetas__fila{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    width: 60%;
-}
-.recetas__imagen{
-    width: 700px;
-    height: 350px;
-}
-.recetas__textos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #149B49;
-    padding: 0px 50px;
-    height: 350px;
-}
-.recetas__h2{
-    font-family: 'Montserrat Bold', sans-serif;
-    font-size: 45px;
-    color: white;
-    text-align: center;
-    margin-bottom: 0px;
-}
-.recetas__parrafo{
-    font-family: 'Montserrat Medium', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    color: white;
-} */
-
 /* MAIN Por el Mundo */
 .mundo{
     background-color: black;
