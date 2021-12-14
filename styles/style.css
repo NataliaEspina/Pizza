@@ -26,6 +26,10 @@ li a{
     text-transform: uppercase;
     color: white;
 }
+li a:hover{
+    font-family: 'Montserrat Medium', sans-serif;
+    color: #F10303;
+}
 
 /* MAIN index */
 .principal{
