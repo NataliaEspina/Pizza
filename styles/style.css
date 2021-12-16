@@ -31,6 +31,15 @@ li a:hover{
     color: #F10303;
 }
 
+/* imagen-fondo Bootstrap */
+#imagen-fondo{
+    background-image: url(../resources/foto_principal_00.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 /* MAIN index */
 .principal{
     background-image: url(../resources/foto_principal_00.jpg);
@@ -59,6 +68,23 @@ li a:hover{
     background-color: #149B49;
     border-radius: 50px;
     padding: 5px;
+}
+
+/* MAIN Bootstrap */
+#titulo{
+    font-family: 'Montserrat ExtraBold', sans-serif;
+    text-transform: uppercase;
+    color: #F10303;
+    text-align: center;
+}
+#subtitulo{
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    background-color: #149B49;
+    border-radius: 50px;
 }
 
 /* HISTORIA GRID */
