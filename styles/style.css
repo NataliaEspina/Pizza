@@ -70,8 +70,7 @@ li a:hover{
     padding: 5px;
 }
 
-/* MAIN Bootstrap */
-#titulo{
+/* #titulo{
     font-family: 'Montserrat ExtraBold', sans-serif;
     text-transform: uppercase;
     color: #F10303;
@@ -85,7 +84,7 @@ li a:hover{
     text-align: center;
     background-color: #149B49;
     border-radius: 50px;
-}
+} */
 
 /* HISTORIA GRID */
 #grid{
@@ -295,7 +294,7 @@ li a:hover{
     color: white;       
 }
 
-/* GRID Section Recetas */
+/* GRID Section Recetas
 .main{
     background-color: black;
 }
@@ -351,6 +350,14 @@ display: grid;
     padding: 0px 30px;
     background-color: #149B49;
     height: 300px;
+} */
+
+/* Bootstrap RECETA */
+.fondo-contenedor{
+    background-color: black;
+}
+#fondo-receta{
+    background-color: #149B49;
 }
 
 /* MAIN Por el Mundo */
@@ -457,7 +464,15 @@ display: grid;
     font-size: 15px;
     color: white;
 }
-.footer__redes{
+.redes{
     width: 25px;
     height: 25px;
+}
+
+/* Footer Bootstrap */
+#fondo_footer{
+    background-color: #F10303;
+}
+.pie_pagina{
+    background-color: #F10303;
 }
