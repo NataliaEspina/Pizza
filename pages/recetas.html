@@ -10,94 +10,122 @@
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item mx-3">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link active" aria-current="page" href="../pages/historia.html">Historia</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link active" aria-current="page" href="../pages/recetas.html">Recetas</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link active" aria-current="page" href="../pages/porelmundo.html">Por el mundo</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contactanos</a>
-                    </li>
-                </ul>
+    <!-- Navbar -->
+    <div class="color-nav">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="justify-content-start">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item mx-3">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active" aria-current="page" href="../pages/historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active" aria-current="page" href="../pages/recetas.html">Recetas</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active" aria-current="page" href="../pages/porelmundo.html">Por el mundo</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contactanos</a>
+                            </li>
+                        </ul>
+                    </div>
             </div>
-        </div>
-    </nav>
+                <div class="justify-content-end">
+                    <a href="https://www.youtube.com/">
+                        <img class="redes mx-2" src="../resources/youtube.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img class="redes mx-2" src="../resources/instagram.png" alt="">
+                    </a>
+                    <a href="https://es-la.facebook.com/">
+                        <img class="redes mx-2" src="../resources/facebook.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
 
     <!-- Recetas -->
     <main class="fondo-contenedor">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center mx-5">
                 <!-- Receta 1 -->
-                <div class="col-11 col-md-4 mx-auto">
+                <div class="col-11 col-md-4 px-4">
                     <div class="card border-0 mt-5 mb-5" id="fondo-receta">
                         <img src="../resources/recetas_foto-01.jpg" class="card-img-top" alt="">
                         <div class="card-body m-3">
-                            <h4 class="card-title text-light">Masa para pizza casera</h5>
-                            <p class="card-text text-light">La masa de pizza italiana es muy fácil de hacer y es una de las recetas más buscadas de internet</p>
-                            <a href="" class="btn btn-dark">Ver la receta</a>
+                            <h4 class="card-title ">Masa para pizza casera</h5>
+                            <p class="card-text ">La masa de pizza italiana es muy fácil de hacer y es una de las recetas más buscadas de internet</p>
+                            <a href="" class="btn text-light color-boton">Ver la receta</a>
                         </div>
                     </div>
                 </div>
                 <!-- Receta 2 -->
-                <div class="col-11 col-md-4 mx-auto">
+                <div class="col-11 col-md-4 px-4">
                     <div class="card border-0 mt-5 mb-5" id="fondo-receta">
                         <img src="../resources/recetas_foto-02.jpg" class="card-img-top" alt="">
                         <div class="card-body m-3">
-                            <h4 class="card-title text-light">Pizza calabresa</h5>
-                            <p class="card-text text-light">Esta versión, caracterizada por la longaniza y las aceitunas forman una genial combinación</p>
-                            <a href="" class="btn btn-dark">Ver la receta</a>
+                            <h4 class="card-title ">Pizza calabresa</h5>
+                            <p class="card-text ">Esta versión, caracterizada por la longaniza y las aceitunas forman una genial combinación</p>
+                            <a href="" class="btn text-light color-boton">Ver la receta</a>
                         </div>
                     </div>
                 </div>
                 <!-- Receta 3 -->
-                <div class="col-11 col-md-4 mx-auto">
+                <div class="col-11 col-md-4 px-4">
                     <div class="card border-0 mt-5 mb-5" id="fondo-receta">
                         <img src="../resources/recetas_foto-03.jpg" class="card-img-top" alt="">
                         <div class="card-body m-3">
-                            <h4 class="card-title text-light">Pizza de verduras</h5>
-                            <p class="card-text text-light">La pizza vegetal está cargada de proteínas y vitaminas, se puede convertir en un plato estrella</p>
-                            <a href="" class="btn btn-dark">Ver la receta</a>
+                            <h4 class="card-title ">Pizza de verduras</h5>
+                            <p class="card-text ">La pizza vegetal está cargada de proteínas y vitaminas, se puede convertir en un plato estrella</p>
+                            <a href="" class="btn text-light color-boton">Ver la receta</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Receta 4 -->
+                <div class="col-11 col-md-4 px-4">
+                    <div class="card border-0 mt-5 mb-5" id="fondo-receta">
+                        <img src="../resources/recetas_foto-03.jpg" class="card-img-top" alt="">
+                        <div class="card-body m-3">
+                            <h4 class="card-title ">Pizza de verduras</h5>
+                            <p class="card-text ">La pizza vegetal está cargada de proteínas y vitaminas, se puede convertir en un plato estrella</p>
+                            <a href="" class="btn text-light color-boton">Ver la receta</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Receta 5 -->
+                <div class="col-11 col-md-4 px-4">
+                    <div class="card border-0 mt-5 mb-5" id="fondo-receta">
+                        <img src="../resources/recetas_foto-03.jpg" class="card-img-top" alt="">
+                        <div class="card-body m-3">
+                            <h4 class="card-title ">Pizza de verduras</h5>
+                            <p class="card-text ">La pizza vegetal está cargada de proteínas y vitaminas, se puede convertir en un plato estrella</p>
+                            <a href="" class="btn text-light color-boton">Ver la receta</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Receta 6 -->
+                <div class="col-11 col-md-4 px-4">
+                    <div class="card border-0 mt-5 mb-5" id="fondo-receta">
+                        <img src="../resources/recetas_foto-03.jpg" class="card-img-top" alt="">
+                        <div class="card-body m-3">
+                            <h4 class="card-title ">Pizza de verduras</h5>
+                            <p class="card-text ">La pizza vegetal está cargada de proteínas y vitaminas, se puede convertir en un plato estrella</p>
+                            <a href="" class="btn  text-light color-boton">Ver la receta</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-
-<footer class="bg-danger">
-        <div class="container">
-            <div class="row justify-content-center pt-3">
-                <div class="col-3 col-md-auto">
-                    <p class="text-center text-light text-uppercase">Seguinos</p>
-                </div>
-                <div class="col-3 col-md-auto">
-                    <a href="https://www.youtube.com/"><img class="redes" src="../resources/youtube.png" alt=""></a>
-                </div>
-                <div class="col-3 col-md-auto">
-                    <a href="https://www.instagram.com/"><img class="redes" src="../resources/instagram.png" alt=""></a>
-                </div>
-                <div class="col-3 col-md-auto">
-                    <a href="https://es-la.facebook.com/"><img class="redes" src="../resources/facebook.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-</footer>
-
-
     
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
