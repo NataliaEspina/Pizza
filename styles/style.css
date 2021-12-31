@@ -69,7 +69,6 @@ li a:hover {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: #F10303;
   opacity: 30%;
   position: absolute;
   left: 10%;
@@ -91,7 +90,6 @@ li a:hover {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-color: #F10303;
   opacity: 30%;
   position: absolute;
   left: 30%;
@@ -113,7 +111,6 @@ li a:hover {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: #F10303;
   opacity: 30%;
   position: absolute;
   left: 45%;
@@ -135,7 +132,6 @@ li a:hover {
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  background-color: #F10303;
   opacity: 30%;
   position: absolute;
   left: 65%;
@@ -157,7 +153,6 @@ li a:hover {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-color: #F10303;
   opacity: 30%;
   position: absolute;
   left: 80%;
@@ -186,8 +181,11 @@ li a:hover {
 #fondo-receta {
   background-color: white; }
 
-.color-boton {
+.color-boton, .color-boton-cambio {
   background-color: #F10303; }
+
+.color-boton-cambio {
+  border: 3px solid black; }
 
 /* MAIN Por el Mundo */
 .mundo {
@@ -195,39 +193,33 @@ li a:hover {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.mundo__cuadro {
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  padding: 30px 45px; }
-
-.mundo__pais {
-  padding: 40px;
-  margin-top: 25px;
-  width: 400px; }
-
-.mundo__bandera {
-  width: 68px;
-  height: 44px; }
-
-.mundo__h2 {
-  font-family: 'Montserrat ExtraBold', sans-serif;
-  font-size: 55px;
-  color: #149B49;
-  margin: 5px 0px; }
-
-.mundo__h3 {
-  font-family: 'Montserrat Bold', sans-serif;
-  font-size: 44px;
-  color: #F10303;
-  margin: 5px 0px; }
-
-.mundo__texto {
-  font-family: 'Montserrat Regular', sans-serif;
-  font-size: 22px;
-  margin: 15px 0px;
-  line-height: 1.5; }
+  .mundo__cuadro {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 45px; }
+  .mundo__pais {
+    padding: 40px;
+    margin-top: 25px;
+    width: 400px; }
+  .mundo__bandera {
+    width: 68px;
+    height: 44px; }
+  .mundo__h2 {
+    font-family: 'Montserrat ExtraBold', sans-serif;
+    font-size: 55px;
+    color: #149B49;
+    margin: 5px 0px; }
+  .mundo__h3 {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 44px;
+    color: #F10303;
+    margin: 5px 0px; }
+  .mundo__texto {
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 22px;
+    margin: 15px 0px;
+    line-height: 1.5; }
 
 /* MAIN Formulario */
 .formulario__cuadro {
@@ -297,3 +289,12 @@ li a:hover {
 .redes {
   width: 20px;
   height: 20px; }
+
+.circle--rojooscuro {
+  background-color: #990303; }
+
+.circle--rojomedio {
+  background-color: #d81111; }
+
+.circle--rojoclaro {
+  background-color: #f84444; }
