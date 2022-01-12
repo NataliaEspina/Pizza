@@ -13,25 +13,17 @@ body{
     margin: 0;
 }
 
-/* MENÚ */
-li{
-    list-style: none;
-    }
-li a{
-    text-decoration: none;
-    
-    text-transform: uppercase;
-    color: white;
-}
-li a:hover{
-    font-family: 'Montserrat Medium', sans-serif;
-    color: $colorrojo;
-}
+/* INDEX */
+/* Menú */
 .color-nav{
     background-color: $colorverde;
 }
 
-/* imagen-fondo Bootstrap */
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
 #imagen-fondo{
     background-image: url(../resources/foto_principal_00.jpg);
     background-position: center;
@@ -40,44 +32,15 @@ li a:hover{
     height: 100vh;
     width: 100%;
 }
-
-/* Navbar */
-.logo{
-    width: 100px;
+.redes{
+    width: 20px;
+    height: 20px;
 }
 
-/* MAIN index */
-.principal{
-    background-image: url(../resources/foto_principal_00.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-
-&__titulo{
-    font-family: 'Montserrat ExtraBold', sans-serif;
-    font-size: 230px;
-    text-transform: uppercase;
-    color: $colorrojo;
-    text-align: center;
-    margin-top: 55px;
-    margin-bottom: 0px;
-    }
-
-&__subtitulo{
-    font-family: 'Montserrat Medium', sans-serif;
-    font-size: 65px;
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    margin: -20px 450px;
-    background-color: $colorverde;
-    border-radius: 50px;
-    padding: 5px;
+/* SECCIÓN HISTORIA */
+.cuadro_color{
+    background-color: white;
 }
-}
-
 
 /* Animaciones */
 #curiosidades div{
@@ -161,150 +124,7 @@ li a:hover{
     100%{top: 100vh; opacity: 0;}
 }
 
-/* HISTORIA con Bootstrap */
-.cuadro_color{
-    background-color: white;
-}
-
-
-/* Bootstrap RECETA */
-.fondo-contenedor{
-    background-color: black;
-}
-#fondo-receta{
-    background-color: white;
-}
-.color-boton{
-    background-color: $colorrojo;
-}
-.color-boton-cambio{
-    @extend .color-boton;
-    border: 3px solid black;
-}
-
-/* MAIN Por el Mundo */
-.mundo{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-&__cuadro{
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    padding: 30px 45px;
-}
-
-&__pais {
-    padding: 40px;
-    margin-top: 25px;
-    width: 400px;
-}
-
-&__bandera{
-    @include size (68px, 44px)
-}
-
-&__h2{
-    font-family: 'Montserrat ExtraBold', sans-serif;
-    font-size: 55px;
-    color: $colorverde;
-    margin: 5px 0px;
-}
-
-&__h3{
-    font-family: 'Montserrat Bold', sans-serif;
-    font-size: 44px;
-    color: $colorrojo;
-    margin: 5px 0px;
-}
-
-&__texto{
-    font-family: 'Montserrat Regular', sans-serif;
-    font-size: 22px;
-    margin: 15px 0px;
-    line-height: 1.5;
-}
-
-}
-
-
-
-
-/* MAIN Formulario */
-
-.formulario__cuadro{
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: $colorverde;
-    margin-top: 100px;
-    padding: 100px 130px;
-    }
-.formulario__rectangulo{
-    width: 500px;
-    height: 45px;
-    font-family: 'Montserrat Regular', sans-serif;
-    font-size: 15px;
-    color: $colorrojo;
-    padding-left: 15px;
-    margin-bottom: 15px;
-}
-.formulario__mensaje{
-    width: 500px;
-    height: 300px;
-    font-family: 'Montserrat Regular', sans-serif;
-    font-size: 15px;
-    color: $colorrojo;
-    padding-left: 15px;
-    margin-bottom: 15px;
-}
-#boton{
-    width: 200px;
-    height: 45px;
-    background-color: $colorrojo;
-    font-family: 'Montserrat Regular', sans-serif;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: white;
-    padding: 5px;
-    border-radius: 30px;
-    margin-top: 10px;   
-}
-/* Form Bootstrap */
-.fondo-contacto{
-    background-image: url(../resources/foto_principal_00.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
-#fondo-formulario{
-    background-color: $colorrojo;
-}
-
-/* FOOTER */
-.footer{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 5px 700px;
-    background-color: $colorrojo;
-}
-.footer__texto{
-    font-family: 'Montserrat Medium', sans-serif;
-    font-size: 15px;
-    color: white;
-}
-.redes{
-    width: 20px;
-    height: 20px;
-}
-
-// Map
+// Map Animaciones
 
 $rojo1: #990303;
 $rojo2: #d81111;
@@ -321,4 +141,67 @@ $colores: (
     background-color: $valor;
     }
 }
+
+
+/* SECCIÓN RECETAS */
+.fondo-contenedor{
+    background-color: black;
+}
+#fondo-receta{
+    background-color: white;
+}
+.color-boton{
+    background-color: $colorrojo;
+}
+/* EXTEND
+.color-boton-cambio{
+    @extend .color-boton;
+    border: 3px solid black;
+}*/
+
+/* Páginas de RECETAS */
+.receta{
+    background-color: black;
+    color: white;
+&__aclaracion{
+    color: $colorrojo;
+}
+}
+
+
+
+/* SECCIÓN POR EL MUNDO */
+.mundo{
+    background-color: black;
+&__blanco{
+    background-color: white;
+}
+&__bandera{
+    @include size (68px, 44px);
+}
+&__pais{
+    background-color: $colorverde;
+    color: white;
+    width: 130px;
+    border-radius: 50px;
+}
+}
+
+
+/* SECCIÓN CONTACTO */
+.fondo-contacto{
+    background-image: url(../resources/foto_principal_00.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#fondo-formulario{
+    background-color: $colorrojo;
+}
+
+
+
+
     
